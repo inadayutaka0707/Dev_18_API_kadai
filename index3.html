@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="js/face-api.min.js"></script>
+    <script defer src="js/main.js"></script>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Directions Input Panel</h1>
+    <div class="directionsContainer">
+        <div id="directionsPanel"></div>
+        <div id="directionsItinerary"></div>
+    </div>
+    <div id="myMap"></div>
+    <video id="video" width="600" height="440" autoplay muted></video>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<!-- /jQuery&GoogleMapsAPI -->
+
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase.js"></script>
+<script src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[ input your key ]' async defer></script>
+<script src="js/index.js"></script>
+</html>

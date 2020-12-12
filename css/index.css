@@ -1,0 +1,47 @@
+body{padding:0;margin:0;background:#333;}h1{padding:0;margin:0;font-size:50%;color:white;}div{float: left;}
+
+html, body{
+    padding:0;
+    margin:0;
+    height:70%;
+}
+.directionsContainer{
+    position:relative;
+    width:28%;
+    height:95%;
+    overflow-y:auto;
+    float:left;
+    background:white;
+    padding-left:15px;
+    margin-top: 300px;
+}
+#myMap{
+    position:relative;
+    width:calc(100% - 380px);
+    height:95%;
+    float:left;
+    width:70%;
+    margin-top: 300px;
+}
+
+#video{
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+canvas{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
